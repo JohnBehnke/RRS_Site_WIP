@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "lato"
 	src:url("assets/fonts/Lato-Lig.ttf"),
-		url("assets/fonts/Lato-Lig.otf");
+	url("assets/fonts/Lato-Lig.otf");
 }
 
 * {
@@ -27,45 +27,73 @@ a {
 	color: #000000;
 }
 #main {
-	min-height: 100%;
+	min-height: 600px;
 	display: block;
 }
 #footer {
 	height: 200px;
-	width: 35%;
-	margin-top: 33%;
-	margin-left: 35%;
+	width: 900px;
 	border-top: 2px solid black;
 }
 #header {
-	width: 35%;
+	width: 900px;
 	height: 10%;
-	margin-left: 35%;
 }
 #links {
-	width: 35%;
-	margin-left: 35%;
+	width: 900px;
 	min-height: 40px;
 	text-align: center;
 	color: #ff2600;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
+	text-align: center;
+	position: static;
 }
 .link {
-	padding-top: 10px;
+	height: 25px;
 	padding-right: 3px;
 	padding-left: 3px;
-	margin-left: 8px;
-	margin-right: 8px;
 	border-left: 1px solid #ff2600;
 	border-right: 1px solid #ff2600;
-	min-width: 50px;
-	height: 25px;
-	margin-top: 3px;
+	margin-top: 8px;
+	margin-right: 50px;
 	float: left;
 }
 
 div .link a {
 	font-size: 20px;
 	text-decoration: none;
+}
+.last {
+	border-right: 1px solid #ff2600;
+}
+.first {
+	margin-left: 100px;
+}
+
+#content {
+	width: 900px;
+	text-align: justify;
+}
+#all {
+	width: 100%;
+	text-align: center;
+}
+#center {
+	display: inline-block;
+}
+#social {
+	height: 150px;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 50px;
+	text-align: left;
+}
+#follow {
+	color: gray;
+	text-decoration: underline;
+}
+#facebook {
+	height: 30px;
+	width: 30px;
 }
