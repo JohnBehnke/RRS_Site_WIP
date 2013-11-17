@@ -7,6 +7,7 @@ red: ff2600
 <html>
 <head>
 	<title>Rensselaer Rocket Society</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="assets/css/all.css">
 </head>
 <body>
