@@ -57,7 +57,7 @@ red: ff2600
 					</a> -->
 				</div>
 				<div id="logos">
-					<img src="assets/" alt="">
+					<img src="assets/images/logo1.png" id="logo1">
 				</div>
 			</div>
 		</div>
