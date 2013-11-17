@@ -23,6 +23,9 @@ red: ff2600
 						<a href="balls">Home</a>
 					</div>
 					<div class="link">
+						<a href="balls">News</a>
+					</div>
+					<div class="link">
 						<a href="balls">Projects</a>
 					</div>
 					<div class="link">
