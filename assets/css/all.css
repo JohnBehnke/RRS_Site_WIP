@@ -90,6 +90,7 @@ div .link a {
 	margin-top: 10px;
 	margin-left: 50px;
 	text-align: left;
+	float: left;
 }
 #follow {
 	color: gray;
@@ -104,11 +105,44 @@ div .link a {
 #logos {
 	width: 300px;
 	height: 200px;
-	background-color: blue;
 	float: left;
 }
 
 #logo1 {
-	height: 200px;
+	height: 100px;
+	display: block;
+}
+#logo2 {
+	width: 150px;
+	display: block;
+	margin-left: -30px;
+}
+#other {
+	margin-top: 10px;
+}
+#issues {
+	color: gray;
+	text-decoration: underline;
+	margin-bottom: 0px;
+}
+
+#email {
 	float: left;
+	color: #ff2600;
+	margin-left: 50px;
+	text-decoration: none;
+}
+
+#team {
+	color: gray;
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+	text-decoration: underline;
+}
+
+.name {
+	margin-top: 0;
+	text-decoration: none !important;
+	display: block;
 }

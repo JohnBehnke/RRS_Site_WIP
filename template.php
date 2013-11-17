@@ -55,16 +55,24 @@ red: ff2600
 						<a href="https://www.facebook.com/pages/Rensselaer-Rocket-Society/317568988260692">
 							<img id="facebook" src="assets/images/facebook.jpg" alt="Facebook"/>
 						</a>
-					<!-- <a href="">
-						<img src="assets/images/twitter.png" alt="Twitter">
-					</a> -->
+					</div>
 				</div>
 				<div id="logos">
 					<img src="assets/images/logo1.png" id="logo1">
+					<img src="assets/images/logo2.png" id="logo2">
+				</div>
+				<div id="other">
+					<p id="issues">Having issues with the site?</p>
+					<a href="mailto:rrs@union.rpi.edu" id="email">Email</a>
+					<br/>
+					<div id="team">
+						<span id="title">Web Team</span>
+						<span class="name">Brian Kelley</span>
+						<span class="name">John Behnke</span>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 </body>
 </html>
