@@ -55,8 +55,14 @@ a {
 	padding-left: 3px;
 	border-left: 1px solid #ff2600;
 	border-right: 1px solid #ff2600;
+<<<<<<< HEAD
 	margin-top: 8px;
 	margin-right: 50px;
+=======
+	min-width: 50px;
+	height: 15px;
+	margin-top: 3px;
+>>>>>>> 37000001f8ef46742d48d1028e1d45322019eac0
 	float: left;
 }
 
