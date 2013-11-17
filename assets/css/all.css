@@ -98,6 +98,7 @@ div .link a {
 }
 
 #facebook {
+	margin-top: 10px;
 	height: 30px;
 	width: 30px;
 }
@@ -119,6 +120,7 @@ div .link a {
 }
 #other {
 	margin-top: 10px;
+	display: block;
 }
 #issues {
 	color: gray;
@@ -129,20 +131,30 @@ div .link a {
 #email {
 	float: left;
 	color: #ff2600;
-	margin-left: 50px;
 	text-decoration: none;
+	margin-left: 95px;
 }
 
 #team {
+	text-align: center;
 	color: gray;
-	float: left;
-	margin-top: 20px;
-	margin-left: 40px;
+	margin-top: 10px;
+	display: block;
+	margin-top: 40px;
+}
+
+#title {
 	text-decoration: underline;
 }
 
+#team p {
+	margin-top: 0; 
+	margin-bottom: 0;
+}
+
 .name {
-	margin-top: 0;
-	text-decoration: none !important;
-	display: block;
+	font-size: 12px;
+}
+#stuff {
+	text-align: center !important;
 }

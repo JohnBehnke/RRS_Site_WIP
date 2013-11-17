@@ -1,8 +1,3 @@
-<!-- 
-grey: #cecece 
-red: ff2600
--->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,14 +56,15 @@ red: ff2600
 					<img src="assets/images/logo1.png" id="logo1">
 					<img src="assets/images/logo2.png" id="logo2">
 				</div>
-				<div id="other">
-					<p id="issues">Having issues with the site?</p>
-					<a href="mailto:rrs@union.rpi.edu" id="email">Email</a>
-					<br/>
+				<div id="stuff">
+					<div id="other">
+						<p id="issues">Having issues with the site?</p>
+						<a href="mailto:rrs@union.rpi.edu" id="email">Email Us</a>
+					</div>
 					<div id="team">
-						<span id="title">Web Team</span>
-						<span class="name">Brian Kelley</span>
-						<span class="name">John Behnke</span>
+						<p id="title">Web Team</p>
+						<p class="name">Brian Kelley</p>
+						<p class="name">John Behnke</p>
 					</div>
 				</div>
 			</div>
