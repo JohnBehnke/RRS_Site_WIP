@@ -14,7 +14,10 @@
             font-size: 16px;
         }
     </style>
-
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 0d3e452af264a73d0bbc6fb3ac0ca91a6fba47dd
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
 <script src="../../assets/js/html5shiv.js"></script>
@@ -26,18 +29,10 @@
 
     <div class = "row" style = "text-align: center;">
         <div class = "row-fluid b">
-            <p class = "col-md-6">ONE TRUE GOD</p>
+            <p class = "col-md-6">ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS ROCKETS </p>
         </div> 
-        <img src="assets/images/OTG.jpg"/>
-        <img src="assets/images/OTG1.gif"/>
-
-    <div class = "row" style = "text-align: center;">
-        <div class = "row-fluid b">
-            <p class = "col-md-6">ONE TRUE GOD</p>
-        </div> 
-        <img src="assets/images/OTG.jpg"/>
-        <img src="assets/images/OTG1.gif"/>
-
+        <img src="assets/images/teamRocket.jpg"/>
+        <img src='assets/images/Funny.jpg'/>
     </div>
 </div>
 
@@ -46,8 +41,11 @@
 <script src="//code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<<<<<<< HEAD
+=======
 <script>
-    $("#cage").addClass("active");
+    $("#rockets").addClass("active");
 </script> 
+>>>>>>> 0d3e452af264a73d0bbc6fb3ac0ca91a6fba47dd
 </body>
 </html>

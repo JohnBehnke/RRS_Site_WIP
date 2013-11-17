@@ -14,6 +14,7 @@
             font-size: 16px;
         }
     </style>
+    
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
 <script src="../../assets/js/html5shiv.js"></script>
@@ -37,5 +38,18 @@
 <script src="//code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script>
+    $("#rockets").addClass("active");
+</script> 
+</body>
+</html>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $("#rockets").addClass("active");
+</script> 
 </body>
 </html>

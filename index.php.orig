@@ -14,7 +14,10 @@
             font-size: 16px;
         }
     </style>
+<<<<<<< HEAD
+=======
 
+>>>>>>> 0d3e452af264a73d0bbc6fb3ac0ca91a6fba47dd
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
 <script src="../../assets/js/html5shiv.js"></script>
@@ -24,6 +27,7 @@
 <body>
     <?php include "header.html";?>
 
+<<<<<<< HEAD
         <div class = "row" style = "text-align: center;">
             <div class = "row-fluid b">
                 <p class = "col-md-6">Welcome to the website of the Rensselaer Rocket Society!  We are premier rocket club on campus at Rensselaer Polytechnic Institute.  In the past we have competed in such High Powered Rocketry Competitions as the NASA UniversityStudent Launch Initiative (USLI) Competition.  Currently we are developing a rocket for the Intercollegiate Rocket Engineering Competition (IREC).</p>
@@ -38,7 +42,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     </body>
-</html>
+=======
     <div class = "row" style = "text-align: center;">
         <div class = "row-fluid b">
             <p class = "col-md-6">Welcome to the website of the Rensselaer Rocket Society!  We are premier rocket club on campus at Rensselaer Polytechnic Institute.  In the past we have competed in such High Powered Rocketry Competitions as the NASA UniversityStudent Launch Initiative (USLI) Competition.  Currently we are developing a rocket for the Intercollegiate Rocket Engineering Competition (IREC).</p>
@@ -56,4 +60,5 @@
     $("#index").addClass("active");
 </script> 
 </body>
+>>>>>>> 0d3e452af264a73d0bbc6fb3ac0ca91a6fba47dd
 </html>

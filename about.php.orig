@@ -14,9 +14,12 @@
             font-size: 16px;
         }
     </style>
+<<<<<<< HEAD
     <script>
     $("#about").addClass("active");
     </script>
+=======
+>>>>>>> 0d3e452af264a73d0bbc6fb3ac0ca91a6fba47dd
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -44,24 +47,11 @@
 <script src="//code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
-</body>
-</html>
-                Meetings are held every Monday and Wednesday on the 4th Floor of the Ricketts Building from 7 pm to 9 pm.  For more information please email rrs@union.rpi.edu
-            </p>
-        </div> 
-        <div style = "text-align: center">
-            <img src="assets/images/rocket.jpg"/>
-        </div>
-    </div>
-</div>
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="//code.jquery.com/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<<<<<<< HEAD
+=======
 <script>
     $("#about").addClass("active");
 </script> 
+>>>>>>> 0d3e452af264a73d0bbc6fb3ac0ca91a6fba47dd
 </body>
 </html>

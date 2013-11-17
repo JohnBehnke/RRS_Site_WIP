@@ -15,7 +15,10 @@
           }
      </style>
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 0d3e452af264a73d0bbc6fb3ac0ca91a6fba47dd
      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
 <script src="../../assets/js/html5shiv.js"></script>
@@ -23,9 +26,15 @@
 <![endif]-->
 </head>
 <body>
+<<<<<<< HEAD
+ <?php include "header.html";?>
+
+ <div class = "row" >
+=======
     <?php include "header.html";?>
 
     <div class = "row" >
+>>>>>>> 0d3e452af264a73d0bbc6fb3ac0ca91a6fba47dd
      <div class = "row-fluid b">
           <p class = "col-md-6" style = "text-align: justify;">Put pretty pictures here and things!
           </p>
@@ -41,26 +50,11 @@
 <script src="//code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<<<<<<< HEAD
+=======
 <script>
   $("#mm").addClass("active");
 </script> 
-</body>
-</html>
- <div class = "row" >
-     <div class = "row-fluid b">
-          <p class = "col-md-6" style = "text-align: justify;">Put pretty pictures here and things!
-          </p>
-     </div> 
-     <div style = "text-align: center">
-          <img src="assets/images/WIP.png"/>
-     </div>
-</div>
-</div>
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="//code.jquery.com/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+>>>>>>> 0d3e452af264a73d0bbc6fb3ac0ca91a6fba47dd
 </body>
 </html>
