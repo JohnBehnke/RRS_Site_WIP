@@ -56,7 +56,7 @@ a {
 	border-left: 1px solid #ff2600;
 	border-right: 1px solid #ff2600;
 	margin-top: 8px;
-	margin-right: 50px;
+	margin-right: 45px;
 	min-width: 50px;
 	margin-top: 3px;
 	float: left;
@@ -70,7 +70,7 @@ div .link a {
 	border-right: 1px solid #ff2600;
 }
 .first {
-	margin-left: 100px;
+	margin-left: 50px;
 }
 
 #content {
