@@ -66,6 +66,13 @@ div .link a {
 	font-size: 20px;
 	text-decoration: none;
 }
+
+.active {
+	color: #000000;
+	border-left: 1px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
+}
+
 .last {
 	border-right: 1px solid #ff2600;
 }
@@ -76,6 +83,7 @@ div .link a {
 #content {
 	width: 900px;
 	text-align: justify;
+	margin-top: 30px;
 }
 #all {
 	width: 100%;
