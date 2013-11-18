@@ -15,25 +15,25 @@
 				</div>
 				<div id="links">
 					<div class="link first">
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 					</div>
 					<div class="link">
-						<a href="news.html">News</a>
+						<a href="news.php">News</a>
 					</div>
 					<div class="link">
-						<a href="projects.html">Projects</a>
+						<a href="projects.php">Projects</a>
 					</div>
 					<div class="link">
-						<a href="outreach.html">Outreach</a>
+						<a href="outreach.php">Outreach</a>
 					</div>
 					<div class="link">
-						<a href="docs.html">Documents</a>
+						<a href="docs.php">Documents</a>
 					</div>
 					<div class="link">
-						<a href="media.html">Media</a>
+						<a href="media.php">Media</a>
 					</div>
 					<div class="link last">
-						<a href="contact.html">Contact</a>
+						<a href="contact.php">Contact</a>
 					</div>
 				</div>
 				<div id = "content">

@@ -15,25 +15,25 @@
 				</div>
 				<div id="links">
 					<div class="link first">
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 					</div>
 					<div class="link">
-						<a href="news.html">News</a>
+						<a href="news.php">News</a>
 					</div>
 					<div class="link">
-						<a href="projects.html">Projects</a>
+						<a href="projects.php">Projects</a>
 					</div>
 					<div class="link">
-						<a href="outreach.html">Outreach</a>
+						<a href="outreach.php">Outreach</a>
 					</div>
 					<div class="link active">
-						<a href="docs.html">Documents</a>
+						<a href="docs.php">Documents</a>
 					</div>
 					<div class="link">
-						<a href="media.html">Media</a>
+						<a href="media.php">Media</a>
 					</div>
 					<div class="link last">
-						<a href="contact.html">Contact</a>
+						<a href="contact.php">Contact</a>
 					</div>
 				</div>
 				<div id = "content">
@@ -52,7 +52,7 @@
 				</div>
 				<div id="logos">
 					<img src="assets/images/logo1.png" id="logo1">
-					<img src="assets/images/logo2.png" id="logo2">
+					<a href="rpi.edu"><img src="assets/images/logo2.png" id="logo2"></a>
 				</div>
 				<div id="stuff">
 					<div id="other">
