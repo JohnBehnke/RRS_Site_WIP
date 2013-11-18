@@ -53,7 +53,7 @@
 				</div>
 				<div id="logos">
 					<img src="assets/images/logo1.png" id="logo1">
-					<a href="rpi.edu"><img src="assets/images/logo2.png" id="logo2"></a>
+					<a href="http://rpi.edu"><img src="assets/images/logo2.png" id="logo2"></a>
 				</div>
 				<div id="stuff">
 					<div id="other">
