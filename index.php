@@ -42,6 +42,7 @@
 					<p>We are premier rocket club on campus at Rensselaer Polytechnic Institute. Our team consists of students with majors ranging from Computer Science to Aeronautical Engineering who are passionate about rocketry. Our club was founded is the spring of 2011 to compete in the 2012 NASA University Student Launch Initiative Competition.  The challenge for this event was to develop and build a high powered rocket that would reach as close to one mile as possible and would carry a scientific payload. We currently have two high power rockets under construction, one of which will be flying at the 2014 NASA USLI Competition.</p> 
 					
 					<p>Meetings are held every Monday and Wednesday on the 4th Floor of the Ricketts Building from 7 pm to 9 pm.</p>
+					
 				</div>
 
 			</div>

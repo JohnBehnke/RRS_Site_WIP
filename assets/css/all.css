@@ -75,6 +75,7 @@ div .link a {
 
 .last {
 	border-right: 1px solid #ff2600;
+	margin-right: 0px;
 }
 .first {
 	margin-left: 50px;
