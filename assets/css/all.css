@@ -1,3 +1,12 @@
+/*
+
+This is where most, if not all, of the CSS for the site will be. 
+This is what makes it look pretty, so don't mess it up.
+As a general rula, if you don't know what you're doing, don't touch this.
+
+*/
+
+
 @font-face {
 	font-family: "lato"
 	src:url("assets/fonts/Lato-Lig.ttf"),
@@ -5,7 +14,7 @@
 }
 
 * {
-	font-family: "lato"; 
+	font-family: "lato"; /* Set the font as a custom font. */
 	font-weight: 100;
 }
 
@@ -39,7 +48,7 @@ a {
 	width: 900px;
 	height: 10%;
 }
-#links {
+#links { /* Div to contain the links. We will keep it static so that no matter the screen size, it should look the same */
 	width: 900px;
 	min-height: 30px;
 	text-align: center;
@@ -49,21 +58,21 @@ a {
 	text-align: center;
 	position: static;
 }
-.link {
+.link { /* Actual links, should be in .links */
 	height: 25px;
 	padding-right: 3px;
 	padding-left: 3px;
 	border-left: 1px solid #ff2600;
 	border-right: 1px solid #ff2600;
 	margin-top: 8px;
-	margin-right: 45px;
+	margin-right: 50px;
 	min-width: 50px;
 	margin-top: 3px;
 	float: left;
 }
 
 div .link a {
-	font-size: 20px;
+	font-size: 18px;
 	text-decoration: none;
 }
 
@@ -73,12 +82,12 @@ div .link a {
 	border-right: 1px solid #000000 !important;
 }
 
-.last {
+.last { /* Last link in .links. Get rid of the margin-right so that the link wont go down a line on small screens. */
 	border-right: 1px solid #ff2600;
 	margin-right: 0px;
 }
-.first {
-	margin-left: 50px;
+.first { /* First link. Increase the margin-left. */
+	margin-left: 33px;
 }
 
 #content {
@@ -121,11 +130,12 @@ div .link a {
 #logo1 {
 	height: 100px;
 	display: block;
+	margin-left: 60px;
 }
 #logo2 {
 	width: 150px;
 	display: block;
-	margin-left: -30px;
+	margin-left: 30px;
 }
 #other {
 	margin-top: 10px;
