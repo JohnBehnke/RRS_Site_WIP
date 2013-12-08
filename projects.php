@@ -19,33 +19,7 @@
 	<div id="all">
 		<div id="center">
 			<div id="main">
-				<div id="header">
-					<h1>Rensselaer Rocket Society</h1>
-					<h3>Simul Volamus Supremus</h3>
-				</div>
-				<div id="links">
-					<div class="link first">
-						<a href="index.php">Home</a>
-					</div>
-					<div class="link">
-						<a href="news.php">News</a>
-					</div>
-					<div class="link active">
-						<a href="projects.php">Projects</a>
-					</div>
-					<div class="link">
-						<a href="outreach.php">Outreach</a>
-					</div>
-					<div class="link">
-						<a href="docs.php">Documents</a>
-					</div>
-					<div class="link">
-						<a href="media.php">Media</a>
-					</div>
-					<div class="link last">
-						<a href="contact.php">Contact</a>
-					</div>
-				</div>
+				<?php include("header.html") ?>
 				<div id = "content">
 					<p> Each academic year, we focus on two objectives for rocketry. </p>
 					<p>

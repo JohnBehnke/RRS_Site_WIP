@@ -60,13 +60,9 @@ a {
 }
 .link { /* Actual links, should be in .links */
 	height: 25px;
-	padding-right: 3px;
-	padding-left: 3px;
+	width: 14%;
 	border-left: 1px solid #ff2600;
 	border-right: 1px solid #ff2600;
-	margin-top: 8px;
-	margin-right: 50px;
-	min-width: 50px;
 	margin-top: 3px;
 	float: left;
 }
@@ -80,14 +76,13 @@ div .link a {
 	color: #000000;
 	border-left: 1px solid #000000 !important;
 	border-right: 1px solid #000000 !important;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
-.last { /* Last link in .links. Get rid of the margin-right so that the link wont go down a line on small screens. */
+.last {
 	border-right: 1px solid #ff2600;
 	margin-right: 0px;
-}
-.first { /* First link. Increase the margin-left. */
-	margin-left: 33px;
 }
 
 #content {
