@@ -76,13 +76,16 @@ div .link a {
 	color: #000000;
 	border-left: 1px solid #000000 !important;
 	border-right: 1px solid #000000 !important;
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-left: 1px;
+	padding-right: 1px;
 }
 
 .last {
-	border-right: 1px solid #ff2600;
+	border-right: 2px solid #ff2600;
 	margin-right: 0px;
+}
+.first {
+	border-left: 2px solid #ff2600;
 }
 
 #content {
