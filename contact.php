@@ -25,8 +25,7 @@
 			<div id="main">
 				<?php include("header.html") ?>
 				<div id = "content">
-					<p>Email Us:</p>
-					<a href="mailto:rrs@union.rpi.edu">rrs@union.rpi.edu</a>
+					<p>Email Us: <a href="mailto:rrs@union.rpi.edu">rrs@union.rpi.edu</a></p>
 				</div>
 			</div>
 			<?php include("footer.html") ?>
