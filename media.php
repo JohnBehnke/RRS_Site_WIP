@@ -25,7 +25,7 @@
 			<div id="main">
 				<?php include("header.html") ?>
 				<div id = "content">
-					<p>Media goes here</p>
+					<p>This site is still under heavy construction. Please pardon our dust.</p>
 				</div>
 
 			</div>
