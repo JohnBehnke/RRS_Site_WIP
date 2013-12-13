@@ -84,8 +84,17 @@ div .link a {
 	border-right: 2px solid #ff2600;
 	margin-right: 0px;
 }
+.last .active {
+	border-right: 2px solid #000000 !important;
+	border-left: 1px solid #000000 !important;
+	margin-right: 0px;
+}
 .first {
 	border-left: 2px solid #ff2600;
+}
+.first .active {
+	border-left: 2px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
 }
 
 #content {
@@ -117,7 +126,17 @@ div .link a {
 	margin-top: 10px;
 	height: 30px;
 	width: 30px;
+	text-decoration: none;
 }
+
+#twitter {
+	margin-top: 10px;
+	height: 30px;
+	width: 30px;
+	text-decoration: none;
+	margin-left: 10px; 
+}
+
 
 #logos {
 	width: 300px;
@@ -174,4 +193,7 @@ div .link a {
 }
 #stuff {
 	text-align: center !important;
+}
+.bold {
+	font-weight: bold;
 }

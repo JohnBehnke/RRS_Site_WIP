@@ -4,6 +4,7 @@
 	<title>Rensselaer Rocket Society</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="assets/css/all.css">
+	<script type="text/javascript" src = "assets/js/jquery.js"></script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -13,6 +14,9 @@
 		ga('create', 'UA-45933645-1', 'rpi.edu');
 		ga('send', 'pageview');
 
+		$(document).ready(function(){
+		    $('#docs').addClass('active');
+		});
 	</script>
 </head>
 <body>
@@ -21,35 +25,12 @@
 			<div id="main">
 				<?php include("header.html") ?>
 				<div id = "content">
-					<p>Allan please add content</p>
+					<h4 style="color: #ff2600; text-decoration: underline;">2013</h4>
+					<p>Officer Meeting 12/10/2013: <a href="https://www.dropbox.com/s/k8sfnek2oqz78ad/2013-12-10.doc">.doc</a>, <a href="https://www.dropbox.com/s/b8m4410vzdf4c1r/2013-12-10.txt">.txt</a></p>
 				</div>
 
 			</div>
-			<div id="footer">
-				<div id="social">
-					<span id="follow">Follow Us On</span>
-					<div id="pics">
-						<a href="https://www.facebook.com/pages/Rensselaer-Rocket-Society/317568988260692">
-							<img id="facebook" src="assets/images/facebook.jpg" alt="Facebook"/>
-						</a>
-					</div>
-				</div>
-				<div id="logos">
-					<img src="assets/images/logo1.png" id="logo1">
-					<a href="http://rpi.edu"><img src="assets/images/logo2.png" id="logo2"></a>
-				</div>
-				<div id="stuff">
-					<div id="other">
-						<p id="issues">Having issues with the site?</p>
-						<a href="mailto:rrs@union.rpi.edu" id="email">Email Us</a>
-					</div>
-					<div id="team">
-						<p id="title">Web Team</p>
-						<p class="name">Brian Kelley</p>
-						<p class="name">John Behnke</p>
-					</div>
-				</div>
-			</div>
+			<?php include("footer.html") ?>
 		</div>
 	</div>
 </body>
