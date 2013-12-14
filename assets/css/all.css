@@ -141,7 +141,6 @@ div.link a {
 	height: 30px;
 	width: 70px;
 	text-decoration: none;
-	margin-left: 10px; 
 }
 
 
@@ -203,4 +202,7 @@ div.link a {
 }
 .bold {
 	font-weight: bold;
+}
+#pics {
+	height: 100px;
 }
