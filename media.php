@@ -27,7 +27,6 @@
 				<div id = "content">
 					<p>This site is still under heavy construction. Please pardon our dust.</p>
 				</div>
-
 			</div>
 			<?php include("footer.html") ?>
 		</div>

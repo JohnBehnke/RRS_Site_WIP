@@ -14,7 +14,6 @@
 		ga('create', 'UA-45933645-1', 'rpi.edu');
 		ga('send', 'pageview');
 
-
 		$(document).ready(function(){
 		    $('#news').addClass('active');
 		});
@@ -35,7 +34,6 @@
 						<li><span class = "bold">Safety Officer:</span> Matthew Carr</li>
 					</ul>
 				</div>
-
 			</div>
 			<?php include("footer.html") ?>
 		</div>

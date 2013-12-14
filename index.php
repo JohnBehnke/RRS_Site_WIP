@@ -42,7 +42,6 @@
 					<p>Meetings are held every Monday and Wednesday on the 4th Floor of the Ricketts Building from 7 pm to 9 pm.</p>
 
 				</div>
-
 			</div>
 			<?php include("footer.html") ?>
 		</div>

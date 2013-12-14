@@ -17,13 +17,20 @@
 		$(document).ready(function(){
 		    $('#template').addClass('active');
 		});
-
 	</script>
 
 	<!-- 
 	This is the template for any given page. The main difference will be in the "content" div.
 	Please remove this comment (Or change it) if you copy it to make a new page.
--->
+	In order to make a new page, just save this file with another name, make any changes to the page necessary, add it to the header, 
+	change the ready() function above, and recalculate the percentage each link will take.
+	
+	For example: As of writing this, there are 7 pages. Width is done by percentage of 900. Therefore, each link will take up  100/7 = 14.28% adjusted down to 14. Why 14? It looked good and I didn't feel like fiddling with it more.
+	Adding one link will change this to 100/8 = 12.5 adjusted down to 12.3. For each link added, there will need to be a little adjustment due to the nature of the borders.
+	Pretty much just mess with it until it looks right.
+
+	Also, don't add an <a> tag at the end of the content div outside of a <p> tag. Browsers don't like that apparently.
+	-->
 
 </head>
 <body>
@@ -41,7 +48,6 @@
 
 						<p>Meetings are held every Monday and Wednesday on the 4th Floor of the Ricketts Building from 7 pm to 9 pm.  For more information please email rrs@union.rpi.edu</p>
 					</div>
-
 				</div>
 				<?php include("footer.html") ?>
 			</div>

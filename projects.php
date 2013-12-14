@@ -30,7 +30,6 @@
 						In the Fall Semester, the new members build low powered Estes Pro Series rockets in groups in order to gain an understanding of the construction process and launching process. They then later compete in a contest with several criteria such as altitude, payload, and best looking rocket. While this is happening, the older members prepare for the larger launches, such as the USLI launch. In the spring semester, the construction and testing of the larger competition rocket takes place, which everyone helps with.  
 					</p>
 				</div>
-
 			</div>
 			<?php include("footer.html") ?>
 		</div>

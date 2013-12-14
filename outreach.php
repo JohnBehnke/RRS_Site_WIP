@@ -17,7 +17,6 @@
 		$(document).ready(function(){
 		    $('#out').addClass('active');
 		});
-
 	</script>
 </head>
 <body>
@@ -30,7 +29,6 @@
 
 					<p>If you would like to contact us about setting up an outreach event, please email <a href="mailto:rrs@union.rpi.edu">rrs@union.rpi.edu</a>.</p>
 				</div>
-
 			</div>
 			<?php include("footer.html") ?>
 		</div>

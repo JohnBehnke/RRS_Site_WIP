@@ -28,7 +28,6 @@
 					<h4 style="color: #ff2600; text-decoration: underline;">2013</h4>
 					<p>Officer Meeting 12/10/2013: <a href="https://www.dropbox.com/s/k8sfnek2oqz78ad/2013-12-10.doc">.doc</a>, <a href="https://www.dropbox.com/s/b8m4410vzdf4c1r/2013-12-10.txt">.txt</a></p>
 				</div>
-
 			</div>
 			<?php include("footer.html") ?>
 		</div>
