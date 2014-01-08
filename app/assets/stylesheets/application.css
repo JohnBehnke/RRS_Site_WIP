@@ -9,5 +9,212 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
  */
+/*
+
+This is where most, if not all, of the CSS for the site will be. 
+This is what makes it look pretty, so don't mess it up.
+As a general rule, if you don't know what you're doing, don't touch this.
+
+*/
+
+
+@font-face {
+	font-family: "lato"
+	src:url("assets/fonts/Lato-Lig.ttf"),
+	url("assets/fonts/Lato-Lig.otf");
+}
+
+* {
+	font-family: "lato"; /* Set the font as a custom font. */
+	font-weight: 100;
+}
+
+h1 {
+	color: #000000;
+	text-align: center;
+	margin-bottom: -20px;
+}
+h3 {
+	color: #ff2600;
+	text-align: center;
+	font-style: italic;
+}
+
+a {
+	color: #ff2600;
+}
+.active a {
+	color: #000000;
+}
+#main {
+	min-height: 600px;
+	display: block;
+}
+#footer {
+	height: 200px;
+	width: 900px;
+	border-top: 2px solid black;
+}
+#header {
+	width: 900px;
+	height: 10%;
+}
+#links { /* Div to contain the links. We will keep it static so that no matter the screen size, it should look the same */
+	width: 900px;
+	min-height: 30px;
+	text-align: center;
+	color: #ff2600;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	position: static;
+}
+.link { /* Actual links, should be in .links */
+	height: 25px;
+	width: 14%;
+	border-left: 1px solid #ff2600;
+	border-right: 1px solid #ff2600;
+	margin-top: 3px;
+	float: left;
+}
+
+div.link a {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.active {
+	color: #000000;
+	border-left: 1px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.last {
+	border-right: 2px solid #ff2600;
+	margin-right: 0px;
+}
+.last.active {
+	border-right: 2px solid #000000 !important;
+	border-left: 1px solid #000000 !important;
+	margin-right: 0px;
+}
+.first {
+	border-left: 2px solid #ff2600;
+}
+.first.active {
+	border-left: 2px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
+}
+
+#content {
+	width: 900px;
+	text-align: justify;
+	margin-top: 30px;
+}
+#all {
+	width: 100%;
+	text-align: center;
+}
+#center {
+	display: inline-block;
+}
+#social {
+	height: 150px;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 50px;
+	text-align: left;
+	float: left;
+}
+#follow {
+	color: gray;
+	text-decoration: underline;
+}
+
+#facebook {
+	margin-top: 10px;
+	height: 30px;
+	width: 30px;
+	text-decoration: none;
+}
+
+#twitter {
+	margin-top: 10px;
+	height: 30px;
+	width: 30px;
+	text-decoration: none;
+	margin-left: 10px; 
+}
+#youtube {
+	margin-top: 10px;
+	height: 30px;
+	width: 70px;
+	text-decoration: none;
+}
+
+
+#logos {
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+
+#logo1 {
+	height: 100px;
+	display: block;
+	margin-left: 60px;
+}
+#logo2 {
+	width: 150px;
+	display: block;
+	margin-left: 30px;
+}
+#other {
+	margin-top: 10px;
+	display: block;
+}
+#issues {
+	color: gray;
+	text-decoration: underline;
+	margin-bottom: 0px;
+}
+
+#email {
+	float: left;
+	color: #ff2600;
+	text-decoration: none;
+	margin-left: 95px;
+}
+
+#team {
+	text-align: center;
+	color: gray;
+	margin-top: 10px;
+	display: block;
+	margin-top: 40px;
+}
+
+#title {
+	text-decoration: underline;
+}
+
+#team p {
+	margin-top: 0; 
+	margin-bottom: 0;
+}
+
+.name {
+	font-size: 12px;
+}
+#stuff {
+	text-align: center !important;
+}
+.bold {
+	font-weight: bold;
+}
+#pics {
+	height: 100px;
+}

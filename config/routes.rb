@@ -1,4 +1,16 @@
 Rrs::Application.routes.draw do
+  resources :media
+
+  resources :outreaches
+
+  resources :projects
+
+  resources :news
+
+  resources :homes
+  root 'homes#index'
+    
+  devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

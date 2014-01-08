@@ -1,0 +1,27 @@
+<h1>Listing outreaches</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Content</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @outreaches.each do |outreach| %>
+      <tr>
+        <td><%= outreach.content %></td>
+        <td><%= link_to 'Show', outreach %></td>
+        <td><%= link_to 'Edit', edit_outreach_path(outreach) %></td>
+        <td><%= link_to 'Destroy', outreach, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Outreach', new_outreach_path %>
