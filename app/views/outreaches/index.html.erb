@@ -1,27 +1,22 @@
-<h1>Listing outreaches</h1>
+<% content_for :j do %>
+<script type="text/javascript">
+	$(document).ready(function(){
+	    $('#out').addClass('active');
+	});
+</script>
+<% end %>
 
-<table>
-  <thead>
-    <tr>
-      <th>Content</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+<% if user_signed_in? %>
+<% if current_user.admin? %>
+	<%= link_to("New Outreach Event", new_outreach_path) %>
+<% end %>
+<% end %>
 
-  <tbody>
-    <% @outreaches.each do |outreach| %>
-      <tr>
-        <td><%= outreach.content %></td>
-        <td><%= link_to 'Show', outreach %></td>
-        <td><%= link_to 'Edit', edit_outreach_path(outreach) %></td>
-        <td><%= link_to 'Destroy', outreach, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
 
-<br>
-
-<%= link_to 'New Outreach', new_outreach_path %>
+<% if @outreaches.count == 0 %>
+  <p style = "text-align:center;">No outreach events now, come back later.</p>
+<% else %>
+  <% @outreaches.each do |n| %>
+    <%=raw n.content %>
+  <% end %>
+<% end %>

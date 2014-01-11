@@ -1,27 +1,22 @@
-<h1>Listing media</h1>
+<% content_for :j do %>
+<script type="text/javascript">
+	$(document).ready(function(){
+	    $('#media').addClass('active');
+	});
+</script>
+<% end %>
 
-<table>
-  <thead>
-    <tr>
-      <th>Content</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+<% if user_signed_in? %>
+<% if current_user.admin? %>
+	<%= link_to("New Media", new_medium_path) %>
+<% end %>
+<% end %>
 
-  <tbody>
-    <% @media.each do |medium| %>
-      <tr>
-        <td><%= medium.content %></td>
-        <td><%= link_to 'Show', medium %></td>
-        <td><%= link_to 'Edit', edit_medium_path(medium) %></td>
-        <td><%= link_to 'Destroy', medium, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
 
-<br>
-
-<%= link_to 'New Medium', new_medium_path %>
+<% if @media.count == 0 %>
+  <p style = "text-align:center;">No media now, come back later.</p>
+<% else %>
+  <% @media.each do |n| %>
+    <%=raw n.content %>
+  <% end %>
+<% end %>

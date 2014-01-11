@@ -4,7 +4,7 @@ class HomesController < ApplicationController
   # GET /homes
   # GET /homes.json
   def index
-    @homes = Home.all
+    @home = Home.find(1)
   end
 
   # GET /homes/1
@@ -64,7 +64,7 @@ class HomesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_home
-      @home = Home.find(params[:id])
+      @home = Home.find(1)
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

@@ -1,14 +1,26 @@
 Rrs::Application.routes.draw do
+  root 'homes#index'
+  
+  resources :contacts
+  get "/contacts" => "contacts#index"
+
+  resources :documents
+  get "/docs" => "documents#index"
+
   resources :media
+  get "/media" => "media#index"
 
   resources :outreaches
+  get "/outreach" => "outreaches#index"
 
   resources :projects
+  get "/projects" => "projects#index"
 
   resources :news
+  get "/news" => "news#index"
 
   resources :homes
-  root 'homes#index'
+  
     
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.

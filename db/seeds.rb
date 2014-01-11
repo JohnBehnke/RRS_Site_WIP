@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+if Home.count == 0
+    Home.create(content: "Content")
+    puts "Created 'Home'"
+else
+    puts "Content exists"
+end

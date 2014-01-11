@@ -10,18 +10,10 @@
  *
  *= require_self
  */
-/*
-
-This is where most, if not all, of the CSS for the site will be. 
-This is what makes it look pretty, so don't mess it up.
-As a general rule, if you don't know what you're doing, don't touch this.
-
-*/
-
 
 @font-face {
-	font-family: "lato"
-	src:url("assets/fonts/Lato-Lig.ttf"),
+	font-family: "lato";
+	src:url("assets/fonts/Lato-Lig.ttf")
 	url("assets/fonts/Lato-Lig.otf");
 }
 
@@ -113,6 +105,7 @@ div.link a {
 	width: 900px;
 	text-align: justify;
 	margin-top: 30px;
+	min-height: 300px;
 }
 #all {
 	width: 100%;

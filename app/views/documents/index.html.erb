@@ -1,0 +1,23 @@
+
+
+<% content_for :j do %>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('#docs').addClass('active');
+  });
+</script>
+<% end %>
+
+<% if user_signed_in? %>
+<% if current_user.admin? %>
+  <%= link_to("New Document", new_document_path) %>
+<% end %>
+<% end %>
+
+<% if @documents.count == 0 %>
+  <p style = "text-align:center;">No documents now, come back later.</p>
+<% else %>
+  <% @documents.each do |n| %>
+    <p><%= n.name %>: <a href="<%= n.docUrl %>">.doc</a>, <a href="<%= n.txtUrl %>">.txt</a></p>
+  <% end %>
+<% end %>

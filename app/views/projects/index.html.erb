@@ -1,29 +1,24 @@
-<h1>Listing projects</h1>
+<% content_for :j do %>
+<script type="text/javascript">
+	$(document).ready(function(){
+	    $('#projects').addClass('active');
+	});
+</script>
+<% end %>
 
-<table>
-  <thead>
-    <tr>
-      <th>Content</th>
-      <th>Name</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+<% if user_signed_in? %>
+<% if current_user.admin? %>
+	<%= link_to("New Project", new_project_path) %>
+<% end %>
+<% end %>
 
-  <tbody>
-    <% @projects.each do |project| %>
-      <tr>
-        <td><%= project.content %></td>
-        <td><%= project.name %></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Project', new_project_path %>
+<% if @projects.count == 0 %>
+  <p style = "text-align:center;">No projects now, come back later.</p>
+<% else %>
+  <% @projects.each do |n| %>
+  	<h2><%= n.name %></h2>
+    <div style = "margin-left: 50px;">
+		<%=raw n.content %>
+	</div>
+  <% end %>
+<% end %>

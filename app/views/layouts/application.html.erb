@@ -5,50 +5,57 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+
 </head>
 <body>
+<div id="all">
+<div id="center">
+<div id="main">
   <div id="header">
 	<h1>Rensselaer Rocket Society</h1>
 	<h3>------------Simul Volamus Supremus------------</h3>
 </div>
 <div id="links">
 	<div class="link first" id="home">
-		<a href="index.php">Home</a>
+		<%= link_to("Home", "/") %>
 	</div>
 	<div class="link" id="news">
-		<a href="news.php">News</a>
+		<%= link_to("News", "/news") %>
 	</div>
 	<div class="link" id="projects">
-		<a href="projects.php">Projects</a>
+		<%= link_to("Projects", "/projects") %>
 	</div>
 	<div class="link" id="out">
-		<a href="outreach.php";>Outreach</a>
+		<%= link_to("Outreach", "/outreach") %>
 	</div>
 	<div class="link" id="docs">
-		<a href="docs.php">Documents</a>
+		<%= link_to("Documents", "/documents") %>
 	</div>
 	<div class="link" id="media">
-		<a href="media.php">Media</a>
+		<%= link_to("Media", "/media") %>
 	</div>
 	<div class="link last" id="contact">
-		<a href="contact.php">Contact</a>
+		<%= link_to("Contact", "/contacts") %>
 	</div>
 </div>
 
+<div id="content">
 <%= yield %>
+</div>
+
 <div id="footer">
 	<div id="social">
 		<span id="follow">Follow Us On</span>
 		<div id="pics">
 			<a href="https://www.facebook.com/pages/Rensselaer-Rocket-Society/317568988260692">
-				<img id="facebook" src="assets/images/facebook.jpg" alt="Facebook"/></a>
+				<%= image_tag("facebook.jpg", :id => "facebook") %></a>
 			<a href="https://twitter.com/RPI_Rockets">
-				<img id = "twitter" src="assets/images/twitter.png" alt="Twitter"><br/><a href="http://www.youtube.com/channel/UCvY84PvXcY_XciV4A9DGRmQ"><img id = "youtube" src="assets/images/youtube.png" alt="Youtube"></a>
+				<%= image_tag("twitter.png", :id => "twitter") %><br/><a href="http://www.youtube.com/channel/UCvY84PvXcY_XciV4A9DGRmQ"><%= image_tag("youtube.png", :id => "youtube") %></a>
 		</div>
 	</div>
 	<div id="logos">
-		<img src="assets/images/logo1.png" id="logo1">
-		<a href="http://rpi.edu"><img src="assets/images/logo2.png" id="logo2"></a>
+		<%= image_tag("logo1.png", :id => "logo1") %>
+		<a href="http://rpi.edu"><%= image_tag("logo2.png", :id => "logo2") %></a>
 	</div>
 	<div id="stuff">
 		<div id="other">
@@ -60,7 +67,17 @@
 			<p class="name">Brian Kelley</p>
 			<p class="name">John Behnke</p>
 		</div>
+		<div>
+			<% if user_signed_in? %>
+				<%= link_to("Sign Out", destroy_user_session_path) %>
+			<% else %>
+				<p style = "margin-bottom: -5px; color: grey;">Are you an admin?</p>
+				<%= link_to("Sign In", new_user_session_path) %>
+			<% end %>
+		</div>
 	</div>
 </div>
+</div>
 </body>
+<%= yield :j %>
 </html>

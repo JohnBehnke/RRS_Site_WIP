@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @document.name %>
+</p>
+
+<p>
+  <strong>Docurl:</strong>
+  <%= @document.docUrl %>
+</p>
+
+<p>
+  <strong>Txturl:</strong>
+  <%= @document.txtUrl %>
+</p>
+
+<%= link_to 'Edit', edit_document_path(@document) %> |
+<%= link_to 'Back', documents_path %>
