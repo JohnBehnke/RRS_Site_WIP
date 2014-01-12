@@ -18,10 +18,23 @@
 <% if @outreaches.count == 0 %>
   <p style = "text-align:center;">No outreach events now, come back later.</p>
 <% else %>
+  <% count = 0 %>
   <% @outreaches.each do |n| %>
-  	<h2><%= n.title %></h2>
-  	<div style = "margin-left: 50px;">
-    	<%=raw n.content %>
+  	<% if count < 1 %>
+      <div>
+        <h2><%= n.name %></h2>
+        <div style = "margin-left: 50px;">
+        <%=raw n.content %>
+      </div>
     </div>
+    <% count = count + 1 %> 
+  <% else %> 
+    <div style = "border-top: 1px dashed grey;">
+      <h2><%= n.name %></h2>
+      <div style = "margin-left: 50px;">
+        <%=raw n.content %>
+      </div>
+    </div>
+  <% end %>
   <% end %>
 <% end %>
