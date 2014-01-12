@@ -16767,3 +16767,87 @@ Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-01-11 20:51:03 -0500
 
 
 Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-01-11 20:51:03 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (1.5ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 104ms (Views: 45.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-01-12 14:22:31 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-01-12 14:22:33 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 11.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-01-12 14:22:33 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-01-12 14:22:33 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-01-12 14:22:33 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-01-12 14:22:33 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-01-12 14:22:33 -0500
