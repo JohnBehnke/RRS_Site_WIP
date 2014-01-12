@@ -16900,3 +16900,122 @@ ActionView::Template::Error (undefined method `name' for #<News:0x007fd05fd5e8a0
   Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
   Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
   Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.2ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 40.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-01-12 14:33:12 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-01-12 14:33:16 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 20ms (Views: 6.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-01-12 14:33:17 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-01-12 14:33:17 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-01-12 14:33:17 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-01-12 14:33:17 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-01-12 14:33:17 -0500
+
+
+Started GET "/outreach" for 127.0.0.1 at 2014-01-12 14:33:17 -0500
+Processing by OutreachesController#index as HTML
+  [1m[35mOutreach Load (0.1ms)[0m  SELECT "outreaches".* FROM "outreaches"
+  Rendered outreaches/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `name' for #<Outreach:0x007fd050850bd8>):
+    22:   <% @outreaches.each do |n| %>
+    23:   	<% if count < 1 %>
+    24:       <div>
+    25:         <h2><%= n.name %></h2>
+    26:         <div style = "margin-left: 50px;">
+    27:         <%=raw n.content %>
+    28:       </div>
+  app/views/outreaches/index.html.erb:25:in `block in _app_views_outreaches_index_html_erb__2928691844248187849_70266340430100'
+  app/views/outreaches/index.html.erb:22:in `each'
+  app/views/outreaches/index.html.erb:22:in `_app_views_outreaches_index_html_erb__2928691844248187849_70266340430100'
+
+
+  Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.7ms)
+
+
+Started GET "/outreach" for 127.0.0.1 at 2014-01-12 14:33:17 -0500
+Processing by OutreachesController#index as HTML
+  [1m[36mOutreach Load (0.1ms)[0m  [1mSELECT "outreaches".* FROM "outreaches"[0m
+  Rendered outreaches/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `name' for #<Outreach:0x007fd050a7bde0>):
+    22:   <% @outreaches.each do |n| %>
+    23:   	<% if count < 1 %>
+    24:       <div>
+    25:         <h2><%= n.name %></h2>
+    26:         <div style = "margin-left: 50px;">
+    27:         <%=raw n.content %>
+    28:       </div>
+  app/views/outreaches/index.html.erb:25:in `block in _app_views_outreaches_index_html_erb__2928691844248187849_70266341543920'
+  app/views/outreaches/index.html.erb:22:in `each'
+  app/views/outreaches/index.html.erb:22:in `_app_views_outreaches_index_html_erb__2928691844248187849_70266341543920'
+
+
+  Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
