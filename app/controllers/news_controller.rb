@@ -1,10 +1,11 @@
 class NewsController < ApplicationController
   before_action :set_news, only: [:show, :edit, :update, :destroy]
+  load_and_authorize_resource
 
   # GET /news
   # GET /news.json
   def index
-    @news = News.all
+    @news = News.all.reverse
   end
 
   # GET /news/1

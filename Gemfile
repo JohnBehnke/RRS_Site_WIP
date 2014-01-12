@@ -28,6 +28,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem "devise"
 gem "cancan"
+gem 'ckeditor_rails'
+
 
 
 group :doc do

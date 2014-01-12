@@ -1,10 +1,10 @@
 class OutreachesController < ApplicationController
   before_action :set_outreach, only: [:show, :edit, :update, :destroy]
-
+  load_and_authorize_resource
   # GET /outreaches
   # GET /outreaches.json
   def index
-    @outreaches = Outreach.all
+    @outreaches = Outreach.all.reverse
   end
 
   # GET /outreaches/1
@@ -69,6 +69,6 @@ class OutreachesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def outreach_params
-      params.require(:outreach).permit(:content)
+      params.require(:outreach).permit(:content, :title)
     end
 end

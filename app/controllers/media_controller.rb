@@ -1,10 +1,11 @@
 class MediaController < ApplicationController
   before_action :set_medium, only: [:show, :edit, :update, :destroy]
+  load_and_authorize_resource
 
   # GET /media
   # GET /media.json
   def index
-    @media = Medium.all
+    @media = Medium.all.reverse
   end
 
   # GET /media/1

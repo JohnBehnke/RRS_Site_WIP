@@ -8,7 +8,9 @@
 
 <% if user_signed_in? %>
 <% if current_user.admin? %>
+<div data-no-turbolink>
 	<%= link_to("New Outreach Event", new_outreach_path) %>
+</div>
 <% end %>
 <% end %>
 
@@ -17,6 +19,9 @@
   <p style = "text-align:center;">No outreach events now, come back later.</p>
 <% else %>
   <% @outreaches.each do |n| %>
-    <%=raw n.content %>
+  	<h2><%= n.title %></h2>
+  	<div style = "margin-left: 50px;">
+    	<%=raw n.content %>
+    </div>
   <% end %>
 <% end %>

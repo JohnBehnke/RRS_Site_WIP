@@ -69,7 +69,7 @@
 		</div>
 		<div>
 			<% if user_signed_in? %>
-				<%= link_to("Sign Out", destroy_user_session_path) %>
+				<%= link_to("Sign Out", destroy_user_session_path, :method => :delete) %>
 			<% else %>
 				<p style = "margin-bottom: -5px; color: grey;">Are you an admin?</p>
 				<%= link_to("Sign In", new_user_session_path) %>

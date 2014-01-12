@@ -8,7 +8,9 @@
 
 <% if user_signed_in? %>
 <% if current_user.admin? %>
+<div data-no-turbolink>
 	<%= link_to("Edit home page", edit_home_path(1)) %>
+</div>
 <% end %>
 <% end %>
 

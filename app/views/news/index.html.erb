@@ -8,7 +8,9 @@
 
 <% if user_signed_in? %>
 <% if current_user.admin? %>
+<div data-no-turbolink>
 	<%= link_to("New News", new_news_path) %>
+</div>
 <% end %>
 <% end %>
 

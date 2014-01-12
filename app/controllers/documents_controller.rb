@@ -1,10 +1,10 @@
 class DocumentsController < ApplicationController
   before_action :set_document, only: [:show, :edit, :update, :destroy]
-
+  load_and_authorize_resource
   # GET /documents
   # GET /documents.json
   def index
-    @documents = Document.all
+    @documents = Document.all.reverse
   end
 
   # GET /documents/1
