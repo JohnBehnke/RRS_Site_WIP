@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the website for the Rensselaer Rocket Society! We're using Rails 4 for this application, so Ruby version 2.0 is reccomended.
 
-Things you may want to cover:
+The old RRS website was pretty terrible, so John and I decided to make a new one.
 
-* Ruby version
+After making a new design, I decided to add a back end to enable non programmers to update content.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This is a very simple app, the most complicated part is the permissions/logins, which are mostly handled by Devise and CanCan.
