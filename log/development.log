@@ -17019,3 +17019,1775 @@ ActionView::Template::Error (undefined method `name' for #<Outreach:0x007fd050a7
   Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
   Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
   Rendered /home/brian/.rbenv/versions/2.2.0-dev/lib/ruby/gems/2.2.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:21:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (16.9ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 283ms (Views: 205.6ms | ActiveRecord: 17.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:21:02 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 5.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:21:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 77ms (Views: 68.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:22:27 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 67ms (Views: 56.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:24:36 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:24:37 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:24:37 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:24:37 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:24:37 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:24:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 27.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:24:49 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 6.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:24:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:25:23 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 5.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:25:24 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 35.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:25:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 5.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:25:54 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:26:12 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:26:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 5.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:26:26 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 40.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:27:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 36.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:27:11 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:27:18 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 56ms (Views: 45.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:27:19 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 38.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:27:32 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 43ms (Views: 32.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:27:42 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 37.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:27:51 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:28:14 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.3ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 44.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:28:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 34.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:28:21 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:28:25 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 60ms (Views: 45.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:28:26 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 38.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:28:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 39.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:28:52 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:28:53 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:28:53 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:28:53 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:28:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:28:59 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 51ms (Views: 41.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:29:00 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 5.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:29:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 40.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:29:08 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:29:12 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 23.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:29:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 5.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:30:01 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:30:06 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:30:06 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:30:06 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:30:06 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:30:06 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:30:06 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:31:08 -0500
+
+
+Started GET "/news" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.1ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:31:10 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:31:11 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:31:11 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:31:11 -0500
+
+
+Started GET "/outreach" for 127.0.0.1 at 2014-02-25 10:31:12 -0500
+Processing by OutreachesController#index as HTML
+  [1m[35mOutreach Load (0.2ms)[0m  SELECT "outreaches".* FROM "outreaches"
+  Rendered outreaches/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 25ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:31:12 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:31:12 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:31:12 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:31:12 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:31:12 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:31:12 -0500
+
+
+Started GET "/documents" for 127.0.0.1 at 2014-02-25 10:31:13 -0500
+Processing by DocumentsController#index as HTML
+  [1m[36mDocument Load (0.1ms)[0m  [1mSELECT "documents".* FROM "documents"[0m
+  Rendered documents/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 5.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:31:13 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:31:13 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:31:13 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:31:13 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:31:13 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:31:13 -0500
+
+
+Started GET "/media" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+Processing by MediaController#index as HTML
+  [1m[35mMedium Load (0.1ms)[0m  SELECT "media".* FROM "media"
+  Rendered media/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 5.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/contacts" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+Processing by ContactsController#index as HTML
+  Rendered contacts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-02-25 10:31:15 -0500
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-02-25 10:31:16 -0500
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-02-25 10:31:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 14:51:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (19.0ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 300ms (Views: 205.2ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/octo.png" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-04-10 14:51:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 14:54:32 -0400
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.2ms)[0m  [1mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 37ms (Views: 21.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/mark.png" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-04-10 14:54:33 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 74ms (Views: 64.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/ckeditor/ckeditor.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/ckeditor/basepath.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/ckeditor/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/ckeditor-jquery.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/mark.png" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/youtube.png" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-04-10 14:54:58 -0400
+
+
+Started GET "/assets/logo1.png" for 127.0.0.1 at 2014-04-10 14:54:58 -0400

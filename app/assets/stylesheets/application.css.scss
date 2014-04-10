@@ -127,6 +127,11 @@ div.link a {
 	text-decoration: underline;
 }
 
+#open {
+	color: gray;
+	font-size: 10px;
+}
+
 #facebook {
 	margin-top: 10px;
 	height: 30px;
@@ -210,4 +215,11 @@ div.link a {
 }
 #pics {
 	height: 100px;
+}
+#github {
+	height: 35px;
+	margin-top: 7px;
+	margin-left: 5px;
+	position: relative;
+	top: 3px;
 }
